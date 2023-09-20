@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dbz0
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/ci10t-776-0012-tenant/ci10t-776-0012-app/devfile-sample-dbz0@sha256:6c63976e03067d273fea448eea10276d6ab95e173f0352931bd83ee4ea9cf96a
+        name: my-nodejs
+        resources: {}
+status: {}
